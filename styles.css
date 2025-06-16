@@ -1,6 +1,5 @@
 /* styles.css */
-div {
+#grad1 {
+  height: 200px;
+  background-color: darkblue; /* For browsers that do not support gradients */
   background: linear-gradient(45deg, blue, darkblue, purple, lightblue);
-  height: 100vh; /* Full viewport height */
-  width: 100%;   /* Full width */
-}
