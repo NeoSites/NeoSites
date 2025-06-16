@@ -1,7 +1,4 @@
 /* styles.css */
-body {
-    background-image: url('purpel.jpg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+#grad {
+background-image: linear-gradient(to bottom right, 4c3b60, 3B4560);
 }
