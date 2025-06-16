@@ -1,5 +1,7 @@
 /* styles.css */
-#grad1 {
-  height: 200px;
-  background-color: darkblue; /* For browsers that do not support gradients */
-  background: linear-gradient(45deg, blue, darkblue, purple, lightblue);
+body {
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
