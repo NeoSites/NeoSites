@@ -1,6 +1,6 @@
 /* styles.css */
 div {
-  background: linear-gradient(45deg, #466ed5, #4424b8, #6616df, #1677df);
+  background: linear-gradient(45deg, blue, darkblue, purple, lightblue);
   height: 100vh; /* Full viewport height */
   width: 100%;   /* Full width */
 }
