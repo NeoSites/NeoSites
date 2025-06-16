@@ -1,4 +1,6 @@
 /* styles.css */
-#grad {
-background-image: linear-gradient(to bottom right, 4c3b60, 3B4560);
+div {
+  background: linear-gradient(45deg, #466ed5, #4424b8, #6616df, #1677df);
+  height: 100vh; /* Full viewport height */
+  width: 100%;   /* Full width */
 }
