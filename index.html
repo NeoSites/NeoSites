@@ -13,6 +13,26 @@
       background: linear-gradient(90deg, blue, darkblue, purple, lightblue);
       font-family: Poppins, sans-serif;
     }
+    /* Container for the grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+      gap: 10px; /* Space between squares */
+      width: 400px; /* Adjust width as needed */
+      margin: 0 auto; /* Center the grid */
+    }
+
+    /* Individual square styling */
+    .grid-item {
+      background-color: #4CAF50; /* Green background */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Ensures squares are equal in height and width */
+      font-size: 20px;
+      border-radius: 5px; /* Optional: rounded corners */
+    }
   </style>
 </head>
 <body>
