@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ne0.Sites..</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
@@ -13,30 +15,52 @@
       background: linear-gradient(90deg, blue, darkblue, purple, lightblue);
       font-family: Poppins, sans-serif;
     }
-    /* Container for the grid */
+
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
-      gap: 10px; /* Space between squares */
-      width: 400px; /* Adjust width as needed */
-      margin: 0 auto; /* Center the grid */
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      width: 80%; /* Adjusted width for responsiveness */
+      margin: 20px auto; /* Added margin for spacing */
     }
 
-    /* Individual square styling */
     .grid-item {
-      background-color: #4CAF50; /* Green background */
+      background-color: black;
       color: white;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100px; /* Ensures squares are equal in height and width */
+      height: 100px;
       font-size: 20px;
-      border-radius: 5px; /* Optional: rounded corners */
+      border-radius: 5px;
+    }
+
+    .title {
+      font-size: 60px;
+      color: white;
+      text-align: center; /* Centering the title */
+    }
+
+    .subtitle {
+      font-size: 40px;
+      color: white;
+      text-align: center; /* Centering the subtitle */
     }
   </style>
 </head>
 <body>
-  <h1 style="font-size: 60px; color: white;"><b>Neo Sites</b></h1>
-  <p style="font-size: 40px; color: white;">Games</p>
+  <h1 class="title"><b>Neo Sites</b></h1>
+  <p class="subtitle">Games</p>
+  
+  <div class="grid-container">
+    <div class="grid-item">Item 1</div>
+    <div class="grid-item">Item 2</div>
+    <div class="grid-item">Item 3</div>
+    <div class="grid-item">Item 4</div>
+    <div class="grid-item">Item 5</div>
+    <div class="grid-item">Item 6</div>
+    <div class="grid-item">Item 7</div>
+    <div class="grid-item">Item 8</div>
+  </div>
 </body>
 </html>
